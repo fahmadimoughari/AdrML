@@ -63,7 +63,7 @@ def modelEvaluation(real_matrix,predict_matrix,testPosition):
        rmse = math.sqrt(mse)
        R2 = r2_score(real_pred, predicted_probability)
        pearson = np.corrcoef(real_pred, predicted_probability)[0, 1]
-       results=[mse, rmse, R2, pearson]
+       results = [mse, rmse, R2, pearson]
 
        return results
 
