@@ -7,7 +7,7 @@ This repository contains the implementated codes of ADRML, the collected and pre
 
 ## A giude to run ADRML
 Please make sure to have the following libraries installed.
-##### Required libraries
+#### Required libraries
 Python 3.r and upper:
 - Numpy
 - sklearn
@@ -17,7 +17,7 @@ Python 3.r and upper:
 - math
 - sys
 
-##### Input parameters
+#### Input parameters
 To execute the codes, the user must provide three input files
 - `response_dirc`: the directory to a file which contains the real values of log IC50 for all cell lines and drugs
 - `simC_dirc`: the directory to a file that is a square matrix containing the similarity of cell lines
@@ -31,6 +31,7 @@ The real matrix for log IC50 values for CCLE and GDSC are presented in `Data/CCL
 The recommended values for hyper-parametrs are `dim=0.7`, `miu=8`, `lambda=4`, `CV=5`, `repetition=30`.
 
 __Command__
+
 The following command is a sample of executing ADRML
 ```sh
 python ADRML.py response_dirc=../Data/CCLE/Features/LogIC50.csv  simC_dirc=../Data/CCLE/Similarities/Expression.csv simD_dric=../Data/CCLE/Similarities/Target.csv dim=0.7 miu=8 lambda=4 CV=5 repetition=30
