@@ -1,10 +1,12 @@
 # ADRML
-**A**nticancer **D**rug **R**esponse prediction using **M**anifold **L**earning is a computaional method to predict log IC50 for cell line-drug pairs. This method is used in cancer drug sensitivity prediction, which is a fundamenta issue in precision medicine. 
+**A**nticancer **D**rug **R**esponse prediction using **M**anifold **L**earning is a computaional method to predict log IC50 for cell line-drug pairs. This method is used in cancer drug sensitivity prediction, which is a fundamental issue in precision medicine. 
 
 *Fatemeh Ahmadi Moughari, Changiz Eslahchi; ADRML: Anticancer Drug Response Prediction Using Manifold Learning
 
+This repository contains the implementated codes of ADRML, the collected and preprocessed data, in addition to the cmputed similarity matrices for cell lines and drugs.
 
-
+## A giude to run ADRML
+Please make sure to have the following libraries installed.
 ##### Required libraries
 Python 3.r and upper:
 - Numpy
@@ -15,7 +17,7 @@ Python 3.r and upper:
 - math
 - sys
 
-## A giude to run ADRML
+##### Input parameters
 To execute the codes, the user must provide three input files
 - `response_dirc`: the directory to a file which contains the real values of log IC50 for all cell lines and drugs
 - `simC_dirc`: the directory to a file that is a square matrix containing the similarity of cell lines
