@@ -1,7 +1,7 @@
 # ADRML
 **A**nticancer **D**rug **R**esponse prediction using **M**anifold **L**earning is a computaional method to predict log IC50 for cell line-drug pairs. This method is used in cancer drug sensitivity prediction, which is a fundamental issue in precision medicine. 
 
-*Fatemeh Ahmadi Moughari, Changiz Eslahchi; ADRML: Anticancer Drug Response Prediction Using Manifold Learning
+>Fatemeh Ahmadi Moughari, Changiz Eslahchi; ADRML: Anticancer Drug Response Prediction Using Manifold Learning
 
 This repository contains the implementated codes of ADRML, the collected and preprocessed data, in addition to the cmputed similarity matrices for cell lines and drugs.
 
