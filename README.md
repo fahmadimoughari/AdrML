@@ -3,12 +3,12 @@
 
 >Fatemeh Ahmadi Moughari, Changiz Eslahchi; ADRML: Anticancer Drug Response Prediction Using Manifold Learning
 
-This repository contains the implementated codes of ADRML, the collected and preprocessed data, in addition to the cmputed similarity matrices for cell lines and drugs.
+This repository contains the implementated codes of ADRML, the collected and preprocessed data, in addition to the computed similarity matrices for cell lines and drugs.
 
 ## A giude to run ADRML
 Please make sure to have the following libraries installed.
 #### Required libraries
-Python 3.r and upper:
+Python 3.6 and upper:
 - Numpy
 - sklearn
 - Argparse
